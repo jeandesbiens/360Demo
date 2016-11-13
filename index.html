@@ -11,7 +11,7 @@
     <script src="https://npmcdn.com/aframe-template-component@3.0.1"></script>
     <script src="components/set-image.js"></script>
     <script src="components/update-raycaster.js"></script>
-    
+    <script src="https://rawgit.com/bryik/aframe-bmfont-text-component/master/dist/aframe-bmfont-text-component.min.js"></script>
   </head>
   <body>
     <a-scene>
@@ -44,7 +44,7 @@
 
 
       <a-entity template="src: #link" data-src="#christian" data-thumb="#SalleIP" position="-3.58 1.74 -2.71" rotation="0 45 0"></a-entity>
-
+      <a-entity bmfont-text="text: Hello world" position="-3.58 1.74 -2.71" rotation="0 45 0"></a-entity>
       <!-- Camera + cursor. -->
       <a-entity camera look-controls>
         <a-cursor id="cursor"
